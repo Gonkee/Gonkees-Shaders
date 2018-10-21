@@ -1,5 +1,8 @@
 shader_type canvas_item;
 
+// Gonkee's fog shader for Godot 3 - full tutorial https://youtu.be/QEaTsz_0o44
+// If you use this shader, I would prefer it if you gave credit to me and my channel
+
 uniform vec3 color = vec3(0.35, 0.48, 0.95);
 uniform int OCTAVES = 4;
 
