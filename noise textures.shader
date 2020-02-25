@@ -91,11 +91,11 @@ float cellular_noise(vec2 coord) {
 			
 			// check for distance to the point in that tile
 			// decide whether it's the minimum
-			float dist = sqrt((f - node).x * (f - node).x + (f - node).y * (f - node).y);
+			float dist = (f - node).x * (f - node).x + (f - node).y * (f - node).y;
 			min_dist = min(min_dist, dist);
 		}
 	}
-	return min_dist;
+	return sqrt(min_dist);
 }
 
 float fbm(vec2 coord){
