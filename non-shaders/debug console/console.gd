@@ -7,7 +7,6 @@ onready var command_handler = get_node("command_handler")
 
 var commandhistoryline = CommandHistory.history.size()
 
-# Called when the node enters the scene tree for the first time.
 func _ready():
 	input_box.grab_focus()
 
