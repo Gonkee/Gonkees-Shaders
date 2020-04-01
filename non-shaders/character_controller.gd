@@ -1,5 +1,8 @@
 extends KinematicBody
 
+# Gonkee's character control script, from this tutorial series:
+# https://www.youtube.com/playlist?list=PLl29vQKblxBVRwG5hVoN_81ierohmNAXu
+
 onready var anim = get_node("AnimationPlayer")
 onready var cam = get_node("Camera")
 onready var skel = get_node("Armature/Skeleton")
